@@ -10,8 +10,15 @@ namespace Ejemplo
     {
         static void Main(string[] args)
         {
-            System.Console.WriteLine("Hola");
-            System.Console.ReadKey();
+          //  System.Console.WriteLine("Hola");
+            //System.Console.ReadKey();
+
+            Fibonacci f = new Fibonacci();
+            Console.WriteLine(f.Calcular(1));
+            Console.WriteLine(f.Calcular(2));
+            Console.WriteLine(f.Calcular(3));
+            Console.ReadKey();
+
         }
     }
 }
