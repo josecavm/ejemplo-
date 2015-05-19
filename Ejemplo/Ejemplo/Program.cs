@@ -14,9 +14,12 @@ namespace Ejemplo
             //System.Console.ReadKey();
 
             Fibonacci f = new Fibonacci();
+           
             Console.WriteLine(f.Calcular(1));
             Console.WriteLine(f.Calcular(2));
             Console.WriteLine(f.Calcular(3));
+            Console.WriteLine(f.Calcular(4));
+            Console.WriteLine(f.Calcular(5));
             Console.ReadKey();
 
         }
