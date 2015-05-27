@@ -23,7 +23,7 @@ namespace Ejemplo
 
 
             Fibonacci f = new Fibonacci();
-            f.ImprimirFibonacci(f.ArrayFibonacciList(FibonacciListaPrin));
+            f.ImprimirFibonacci(f.arraySincronizaLista(FibonacciListaPrin));
 
         }
     }

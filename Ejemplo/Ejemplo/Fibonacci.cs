@@ -32,7 +32,7 @@ namespace Ejemplo
             return 0;
         }
 
-        public ArrayList ArrayFibonacciList(IEnumerable FiboList1)
+        public ArrayList arraySincronizaLista(IEnumerable FiboList1)
         {
             ArrayList fibonacciList = new ArrayList();
             foreach (int a in FiboList1) 
